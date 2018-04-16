@@ -1,0 +1,25 @@
+html, body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+body {
+    background-color: #fff;
+    letter-spacing: 0;
+}
+
+footer {
+    background-color: $addon-color;
+    padding: rem-calc(50px 70px);
+
+    .copyright {
+        float: right;
+        font-size: 2em;
+        color: #fff;
+        padding: rem-calc(15px 0);
+    }
+}

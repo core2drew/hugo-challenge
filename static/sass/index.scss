@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+// When using webpack loaders we need to include compass mixins one by one
+@import '../../node_modules/compass-mixins/lib/animate';
+@import '../../node_modules/compass-mixins/lib/compass';
+@import '../../node_modules/compass-mixins/lib/lemonade';
+
+// Foundation 6 settings
+@import '../../node_modules/foundation-sites/scss/foundation';
+@import 'setting.scss';
+@include foundation-everything;
+@include foundation-flex-classes;
+@include foundation-flex-grid;
+
+@import 'variables.scss';
+@import 'main.scss';
+
+@import 'components/header.scss';
+@import 'components/button.scss';
+@import 'components/block.scss';
+
+@import 'pages/page.scss';
+@import 'pages/page_home.scss';

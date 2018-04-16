@@ -1,0 +1,12 @@
+.page-home {
+    .init {
+        text-align: center;
+        padding: rem-calc(20px) 5%;
+        min-height: rem-calc(640px);
+        position: relative;
+
+        .content {
+            color: $title-color;
+        }
+    }
+}

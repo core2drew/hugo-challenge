@@ -1,0 +1,6 @@
+[submodule "themes/foundation"]
+	path = themes/foundation
+	url = https://github.com/htko89/hugo-theme-foundation6-blog.git
+[submodule "themes/universal"]
+	path = themes/universal
+	url = https://github.com/devcows/hugo-universal-theme.git

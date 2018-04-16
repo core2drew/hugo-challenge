@@ -1,0 +1,39 @@
+.block {
+    margin: rem-calc(0 20px 50px);
+
+    h3 {
+        color: $primary-color;
+        font-size: 4.68em;
+        margin: 0;
+        line-height: 1.2;
+    }
+
+    p {
+        font-size: 1.34em;
+        color: $text-color;
+    }
+
+    &.icon-left {
+        $image-size: 70px;
+
+        h4 {
+            color: $primary-color;
+            font-size: 2.17em;
+            font-weight: normal;
+        }
+
+        img {
+            float: left;
+            width: $image-size;
+            height: $image-size;
+            margin-right: 20px;
+            display: block;
+            max-width: 100%;
+            vertical-align: middle;
+        }
+
+        > *:not(img) {
+            margin-left: rem-calc($image-size + 20px);
+        }
+    }
+}
