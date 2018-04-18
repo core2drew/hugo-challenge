@@ -1,10 +1,4 @@
-<footer>
-    <a class="company-logo" href="{{ .Site.BaseURL }}">
-        HUGO TEST
-    </a>
-    <div class="copyright">
-        &copy; {{ .Site.Params.copyrightHtml }}
-    </div>
-</footer>
-
-<script type="text/javascript" src="{{ .Site.BaseURL }}dist/main.js"></script>
+	<footer id="footer" role="contentinfo">
+			<a class="brand" href="index.html">{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</a> 
+			<p class="copyright">	&copy; 2018 Hugo. All Right Reserved.</p>
+	</footer>
