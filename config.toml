@@ -199,21 +199,21 @@ theme = "hugo-elate-theme"
     [[params.services.item]]
       title = "Sales &amp; Marketing"
       description = "Lorem Ipsum is simply dummy text for the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
-      icon = "icon-anchor"
+      icon = "images/sales-marketing.png"
 
     [[params.services.item]]
       title = "Communications"
       description = "Lorem Ipsum is simply dummy text for the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
-      icon = "icon-layers2"
+      icon = "images/communications.png"
     [[params.services.item]]
       title = "Operations"
       description = "Lorem Ipsum is simply dummy text for the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
-      icon = "icon-video2"
+      icon = "images/operations.png"
 
       [[params.services.item]]
       title = "Development"
       description = "Lorem Ipsum is simply dummy text for the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."    
-      icon = "icon-monitor"
+      icon = "images/development.png"
 
   # About section
   [params.about]
