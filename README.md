@@ -11,6 +11,7 @@ This repo contains a skeleton for implementing the burstsms hugo challenge.
 
 * Install hugo
 * npm install
+* Install/Download this theme https://github.com/saey55/hugo-elate-theme
 * run hugo server : hugo server
 * build css : npm run build
 * watch css : npm start
